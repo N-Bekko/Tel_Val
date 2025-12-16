@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LA CUEVA DEL TELECO</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
+<header>
+    <h1>LA CUEVA DEL TELECO</h1>
+</header>
+<!--BARRA LATERAL-->
+<section id="menu">
+    <!--Menu para elegir opciones-->
+    <option><button class="noticias">Noticias</button></option>
+    <!-- cuando pasa el mouse salen los cursos, cuando lo quita se quitan-->
+    <option onmouseover="document.getElementById('cursos_popup').style.display='block'"><button class="cursos" >Cursos</button></option>
+    <section id="cursos_popup" onpointerleave="document.getElementById('cursos_popup').style.display='none'">
+        <!--seleccion de cursos (no se como hacer que aparezcan en hover tb)-->
+        <option><button class="1º Curso">1º Curso</button></option>
+        <option><button class="2º Curso">2º Curso</button></option>
+        <option><button class="3º Curso">3º Curso</button></option>
+        <option><button class="4º Curso">4º Curso</button></option>
+    </section>
+    <option><button class="foro">Foro</button></option>
+</section>
+
+<body>
+    <p style="margin-left: 90px;">Bienvenido a <i id="azulito">La Cueva Del Teleco</i>, lugar donde encontrarás todo lo relacionado a la Ingeniería de telecomunicaciones en <i id="azulito">Valladolid</i></p>
+
+</body>
+
+<footer>
+    Para más información contactar vía satélite haha
+</footer>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+header{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #3865ae;
+    text-shadow: black 3px 3px 3px;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    align-self: top;
+}
+option{
+    background-color: #274577;
+    color: white;
+    padding-left: 10px;
+
+}
+#azulito{
+    color: #3865ae;
+    font-weight: 700;
+    font-style: normal;
+}
+button{
+    background: #274577;
+    color: wheat;
+    text-shadow: black 2px 2px 2px;
+}
+#cursos_popup{
+    display: none;
+}
+#menu{
+    display: block;
+    position: fixed;
+    border-radius: 5px;
+    width: 15%;
+    text-align: center;
+}
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

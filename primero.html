@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1ºCURSO</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
+<header>
+    <h1>LA CUEVA DEL TELECO</h1>
+</header>
+<body>
+    <section id="menu">
+        <!--Menu para elegir opciones-->
+        <button class="noticias">Noticias</button>
+        <!-- cuando pasa el mouse salen los cursos, cuando lo quita se quitan-->
+        <button class="cursos" onmouseover="document.getElementById('cursos_popup').style.display='block'">Cursos</button>
+        <section id="cursos_popup" onpointerleave="document.getElementById('cursos_popup').style.display='none'">
+            <!--seleccion de cursos (no se como hacer que aparezcan en hover tb)-->
+            <button class="1º Curso">1º Curso</button>
+            <button class="2º Curso">2º Curso</button>
+            <button class="3º Curso">3º Curso</button>
+            <button class="4º Curso">4º Curso</button>
+        </section>
+        <button class="foro">Foro</button>
+    </section>
+    <h1>1º CURSO DE INGENIERÍA DE TELECOMUNICACIONES</h1>
+    <p>Bienvenido al primer curso de la carrera de Ingeniería de Telecomunicaciones.</p>
+</body>
+<footer>
+    Para más información contactar vía satélite haha
+</footer>
+</html>
